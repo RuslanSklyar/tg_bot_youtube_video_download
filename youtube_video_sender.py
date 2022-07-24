@@ -1,7 +1,7 @@
 import telebot
 from pytube import YouTube
 
-bot = telebot.TeleBot('5286643323:AAHKVZXXg38flAXLN6BSdeXubQ8Xd7kr1Fo')
+bot = telebot.TeleBot('token')
 
 
 @bot.message_handler(commands=['start'])
